@@ -1,0 +1,169 @@
+/* Color Palette 
+  #30364D 
+  #2f344a - dark blue
+  #748572 - greenish gray
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Box Model Fix */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* added font to body */
+body {
+  font-family: "Zalando Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: block;
+  min-height: 600px;
+}
+
+header {
+  padding: 5px;
+  border-bottom: 1px solid black;
+  background-color: #748572;
+}
+
+/* adding font to headers */
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #000;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  padding-top: 25px;
+  border-top: 1px solid black;
+}
+
+footer a {
+  float: left;
+  margin: 5px;
+}
+
+/* background image for main */
+.main {
+  background-color: #aec3b0;
+  background: linear-gradient(
+      to bottom,
+      rgba(18, 69, 89, 0.65),
+      rgba(89, 131, 146, 0.55)
+    ),
+    url("images/hiddenleafvil.jpg") no-repeat center center;
+
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.pet-image {
+  height: 250px;
+  position: relative; /*Allow for movement*/
+}
+
+.dashboard div {
+  display: block;
+}
+
+.pet-image-container {
+  float: left;
+  padding: 10px;
+}
+
+.dashboard {
+  float: left;
+  padding: 20px;
+}
+
+/* adding font to strong in dashboard */
+.dashboard strong {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.button-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  /* border: 2px solid #2f344a; */
+}
+
+.button-container button {
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  font-family: "Zalando Sans", sans-serif;
+  font-size: 15px;
+  background-color: #2f344a;
+  border-color: #748572;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(246, 246, 246, 0.1) 0%,
+    rgba(30, 40, 53, 0) 66%
+  );
+  color: #fafafa;
+}
+
+/* make h3 in special foods menu white */
+.special-foods-menu h3 {
+  color: #fafafa;
+}
+
+/* special foods menu styling */
+.special-foods-menu {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  float: left;
+  border: 2px solid #2f344a;
+  background-color: #748572;
+}
+
+/* special foods menu button styling */
+.special-foods-menu button {
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  /* float: left; */
+  font-family: "Zalando Sans", sans-serif;
+  font-size: 15px;
+  background-color: #2f344a;
+  border-color: #748572;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(246, 246, 246, 0.1) 0%,
+    rgba(30, 40, 53, 0) 66%
+  );
+  color: #fafafa;
+}

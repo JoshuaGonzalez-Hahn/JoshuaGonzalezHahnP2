@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Giga Pet</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://glitch.com/edit/favicon-app.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>This is your Giga Pet!</h1>
+    </header>
+
+    <main class="main">
+      <section class="pet-image-container">
+        <!-- Replace pet image with your own pet image -->
+        <img class="pet-image" src="images/pakkun.png" />
+      </section>
+      <section class="dashboard">
+        <div>
+          Name: <strong><span class="name"></span></strong>
+        </div>
+        <div>
+          Weight: <strong><span class="weight"></span> pounds</strong>
+        </div>
+        <div>
+          Happiness:
+          <strong><span class="happiness"></span> tail wags (per min)</strong>
+        </div>
+        <div>
+          Comment from your pet:
+          <strong><span class="pet-comment"></span></strong>
+        </div>
+        <div class="button-container">
+          <button class="treat-button">Treat</button>
+          <button class="play-button">Play</button>
+          <button class="exercise-button">Exercise</button>
+          <button class="special-treat-button">
+            Special Weight Loss Treat
+          </button>
+          <button class="special-foods-button">Special Food Menu</button>
+          <button class="sleep-button">Sleep</button>
+        </div>
+        <div class="special-foods-menu">
+          <h3>Special Foods Menu</h3>
+          <button class="gold-treat-button">Golden Dog Treat</button>
+          <button class="ramen-button">Pet Friendly Ramen</button>
+          <button class="steak-button">Steak</button>
+          <button class="puppuccino-button">Puppuccino</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.1.min.js"
+      integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
