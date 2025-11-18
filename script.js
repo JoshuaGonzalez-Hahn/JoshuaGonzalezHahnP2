@@ -1,3 +1,10 @@
+//This file is where I used my two jQuery methods: .delay() and .toggle()
+//.delay() sets a timer to delay execution of subsequent items in the queue.
+//and .toggle()  is able to display or hide the matched elements.
+//I used both to make the site feel more interactive.
+//You can find the methods and explanations of what they are and how I used them on
+//lines 14-31, 48-55, and 170-187.
+
 $(function () {
   // Makes sure that your function is called once all the DOM elements of the page are ready to be used.
 
@@ -160,6 +167,7 @@ function petExerciseAnimation() {
     .animate({ left: "+=20px" }, 500);
 }
 
+//This is where I also used .delay(). Im using it to make the pet appear to sleep.
 function sleepAnimation() {
   commentFromPet("Time to sleep...");
   // Increase pet happiness
