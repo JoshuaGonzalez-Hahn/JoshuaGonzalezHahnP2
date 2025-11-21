@@ -14,6 +14,8 @@ $(function () {
   //This is where I used .delay(). .delay() sets a timer to delay execution of subsequent items in the queue.
   //I'm using it to show a comment from your pet to say hello and it's name and then after a few seconds,
   //it will change to another comment asking for a treat.
+  //.delay() works with animations(animation queues).
+  //It delays the next animation in queue by the specified number of milliseconds.
   //It is used to have a more interactive aspect to your pet.
   // Add intial comment from pet
   //$(".pet-comment").text("Hello! I'm " + pet_info.name + "!");
@@ -45,8 +47,10 @@ $(function () {
 
   // Initially hide the special foods menu
   $(".special-foods-menu").hide();
-  //This is where I used .toggle(). .toggle()  is able to display or hide the matched elements.
+  //This is where I used .toggle(). .toggle() is able to display or hide the matched elements.
   //I'm using it show the special foods menu when the special foods button is clicked on.
+  //.toggle() simply switches an element’s visibility. if the element is visble it hides it. And if an element is
+  //hidden, then it will make it visible.
   //It is used to be more interactive for the user. The menu can be shown or hidden when the button is clicked.
   // Show/hide menu when button clicked
   $(".special-foods-button").click(function () {
